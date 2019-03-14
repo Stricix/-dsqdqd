@@ -8,4 +8,4 @@ bot.on("ready", function() {
     console.log("Le bot a bien ete connecte");
 });
 
-bot.login("NTQwMTA1MTc5ODQwOTA1MjE4.D2vJcg.I0dCxwJxsGI9pU9meDUjGVk-YAE");
+bot.login(process.env.TOKEN);
